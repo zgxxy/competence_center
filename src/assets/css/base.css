@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100vw;
+  height: 100vw;
+  overflow: hidden;
+  color: #333333;
+  font-family: 'PingFang SC';
+  /* background-color: #e9f2ff; */
+  background: linear-gradient(90deg,#e9f0ff, #edffff);
+}
+
+.el-tabs__item {
+  font-size: 18px;
+  font-weight: 900;
+  color: #333333;
+  font-family: 'PingFang SC';
+}
+.el-table::before {
+  height: 0;
+}
+.el-table {
+  width: 100%;
+  font-size: 13px;
+  color: #333333;
+  font-family: 'PingFang SC';
+}
+.el-tag {
+  height: 28px;
+  padding: 0px 8px;
+  line-height: 26px;
+}
+.cell {
+  padding: 0 !important;
+  word-break: keep-all;
+  white-space: nowrap;
+  color: #333333;
+  font-family: 'PingFang SC';
+}
+.el-dialog {
+  margin-bottom: 10px;
+}
+.el-dialog__body {
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+  justify-content: center;
+  padding: 20px;
+}
+/* 标题底部加上分割线 */
+.el-dialog__header {
+  border-bottom: 1px solid #DCDFE6;
+}
+.el-dialog__footer {
+  padding: 0px 20px 20px;
+}
+.el-card {
+  /* border-radius: 0px; */
+  padding: 0;
+  margin-bottom: 10px;
+  /* height: calc(100vw - 400px); */
+  /* background-color: #f8faff; */
+  /* background: linear-gradient(90deg,#f8faff, #f7ffff); */
+}
+.el-card__header {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  font-family: 'PingFang SC';
+}
+.el-input__inner {
+  min-height: 32px !important;
+}
+
+.warning-row {
+  background: #fff !important;
+}
+
+.success-row {
+  background: #f1f3f4 !important;
+}
+.el-button {
+  box-sizing: border-box;
+  padding: 0 15px;
+  height: 30px;
+  border-radius: none;
+  font-family: 'PingFang SC';
+  /* display: flex;
+  align-items: center; */
+}
+.el-button span {
+  font-size: 14px;
+  font-family: 'PingFang SC';
+}
+.navbar .no-redirect {
+  color:#000 !important;
+  font-size: 18px;
+  font-family: 'PingFang SC';
+  font-weight: bold;
+}
+
+.start{
+  color:#409eff; 
+}
+ .stop{
+  color:#EA1B29;
+}
+/* form字体改细 */
+.el-form-item__label {
+  white-space: nowrap;
+  /* font-weight: normal; */
+  color: #333333;
+  /* width: 70px !important; */
+}
+.el-radio__label {
+  padding-left:2px;
+}
+/* 提示窗样式修改 */
+  /* .el-popover {
+    padding:10px;
+    background-color: #000;
+    color: #fff;
+    font-size:13px;
+     opacity:0.7; 
+  }
+  .el-popover[x-placement^=right] .popper__arrow::after{
+    border-right-color: #000;
+  }
+ .el-tooltip__popper{ 
+    max-width:40%;
+    opacity:0.8; 
+  }
+  .el-tooltip__popper[x-placement^="top"] .popper__arrow:after {
+    opacity:0.8; 
+  } */

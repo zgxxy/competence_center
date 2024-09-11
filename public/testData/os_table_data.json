@@ -1,0 +1,133 @@
+
+[
+  { 
+    "dataSource": "网络",
+    "crowdName": "人群1",
+    "isApp": "1",
+    "isThird": false,
+    "sampleSize": 576,
+    "reportNum": 5,
+    "relevanceNum": 5,
+    "price": 67,
+    "priceRange": 768,
+    "scale": 55,
+    "startDate": "2013-12-03 23:23:32",
+    "remark": "方法士大夫",
+    "isOpen": true,
+    "status": "0",
+    "role":"0",
+    "apiStatus": 1,
+    "relevanceData":[
+      { "type": "大", "color": "红", "level": "一级" },
+      { "type": "小", "color": "蓝", "level": "二级" },
+      { "type": "中", "color": "绿", "level": "三级" },
+      { "type": "大大大", "color": "灰", "level": "一级" },
+      { "type": "小小小", "color": "黄", "level": "三级" }
+    ],
+    "reportData":[
+      { "name": "张三", "age": "12" },
+      { "name": "李四", "age": "56" },
+      { "name": "王五", "age": "7" },
+      { "name": "赵六", "age": "23" },
+      { "name": "孙七", "age": "86" }
+    ]
+  },
+  { 
+    "dataSource": "朋友介绍",
+    "crowdName": "人群2",
+    "isApp": "0",
+    "isThird": true,
+    "sampleSize": 756,
+    "reportNum": 3,
+    "relevanceNum":4,
+    "price": 32,
+    "priceRange": 47,
+    "scale": 54,
+    "startDate": "2021-12-07 12:57:55",
+    "remark": "飞电风扇的",
+    "isOpen": false,
+    "status": "2",
+    "role":"2",
+    "apiStatus": 0,
+    "relevanceData":[
+      { "type": "小", "color": "紫", "level": "一级" },
+      { "type": "大", "color": "蓝", "level": "二级" },
+      { "type": "中", "color": "绿", "level": "三级" }
+    ],
+    "reportData":[
+      { "name": "王大锤", "age": "12" },
+      { "name": "神里绫人", "age": "26" },
+      { "name": "罗刹", "age": "23" },
+      { "name": "钟离", "age": "1083" }
+    ]
+  },
+  { 
+    "dataSource": "新闻",
+    "crowdName": "人群2333333",
+    "isApp": "1",
+    "isThird": true,
+    "sampleSize": 645,
+    "reportNum": 2,
+    "relevanceNum":3,
+    "price": 311,
+    "priceRange": 78,
+    "scale": 12,
+    "startDate": "2022-09-03 11:35:45",
+    "remark": "飞电风扇的",
+    "isOpen": false,
+    "status": "1",
+    "role":"3",
+    "apiStatus": 2,
+    "relevanceData":[
+      { "type": "大大", "color": "黑", "level": "S级" },
+      { "type": "大大大", "color": "粉", "level": "二级" },
+      { "type": "rtg", "color": "绿", "level": "三级" }
+    ],
+    "reportData":[
+      { "name": "神里绫华", "age": "18" },
+      { "name": "八重神子", "age": "28" },
+      { "name": "心海", "age": "24" }
+    ]
+  },
+  { 
+    "dataSource": "网络",
+    "crowdName": "人群5645",
+    "isApp": "0",
+    "isThird": true,
+    "sampleSize": 311,
+    "reportNum": 0,
+    "relevanceNum":0,
+    "price": 676,
+    "priceRange": 231,
+    "scale": 76,
+    "startDate": "2022-09-03 11:35:45",
+    "remark": "fsds",
+    "isOpen": true,
+    "status": "1",
+    "role":"2",
+    "apiStatus": 2,
+    "relevanceData":[],
+    "reportData":[]
+  },
+  { 
+    "dataSource": "新闻",
+    "crowdName": "人群7",
+    "isApp": "1",
+    "isThird": true,
+    "sampleSize": 87,
+    "reportNum": 0,
+    "relevanceNum":0,
+    "price": 864,
+    "priceRange": 232,
+    "scale": 345,
+    "startDate": "2012-09-03 11:35:45",
+    "remark": "fsds",
+    "isOpen": true,
+    "status": "0",
+    "role":"1",
+    "apiStatus": 1,
+    "relevanceData":[],
+    "reportData":[]
+  }
+]
+  

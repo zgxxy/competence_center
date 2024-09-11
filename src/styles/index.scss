@@ -1,0 +1,147 @@
+@import './variables.scss';
+@import './mixin.scss';
+@import './transition.scss';
+@import './element-ui.scss';
+@import './sidebar.scss';
+@import './reset.scss';
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: PingFang SC, SourceHanSansCN, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+// main-container global css
+.app-container {
+  padding: 20px;
+}
+
+.el-pagination {
+  font-size: 14px !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px;
+  margin-right: 50px;
+  text-align: right;
+
+  .el-input__inner {
+    height: 28px !important;
+  }
+}
+
+// 客户详情
+.app-main {
+  .el-card__header {
+    .clearfix {
+      span {
+        font: 600 18px/18px 'PingFang SC, SourceHanSansCN';
+      }
+
+      .el-card__body {
+        .el-descriptions {
+          .el-descriptions__table {
+            ::v-deep span {
+              font-size: 12px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.flex_ {
+  display: flex;
+  align-items: center;
+}
+
+.flex_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ellipse {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ellipse2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.projectTooltip {
+  max-width: 400px;
+}
+
+.commonTable th.el-table__cell {
+  background: #eef5ff !important;
+}
+
+.el-message--error {
+  max-width: 550px;
+  .el-message__content{
+    line-height: 22px;
+  }
+}

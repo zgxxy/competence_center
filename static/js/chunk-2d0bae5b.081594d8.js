@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0bae5b"],{"38bb":function(e,n,t){"use strict";t.r(n);var l=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div",[e._v(" model 模型管理 ")])},u=[],c={},a=c,o=t("2877"),r=Object(o["a"])(a,l,u,!1,null,null,null);n["default"]=r.exports}}]);

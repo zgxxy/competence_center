@@ -1,0 +1,202 @@
+[
+  {
+    "path": "/customerManagement",
+    "component": "Layout",
+    "name": "customerManagement",
+    "meta": {
+      "title": "客户管理",
+      "icon": "icon-renqun"
+    },
+    "children": [
+      {
+        "path": "",
+        "name": "customerManagement",
+        "component": "customerManagement/index",
+        "meta": { "title": "客户管理" }
+      },
+      {
+        "path": "addCustomer",
+        "name": "addCustomer",
+        "component": "customerManagement/addCustomer",
+        "meta": { "title": "新增客户" },
+        "hidden": true
+      },
+      {
+        "path": "customDetail",
+        "name": "customDetail",
+        "component": "customerManagement/customDetail",
+        "meta": { "title": "客户详情" },
+        "hidden": true
+      },
+      {
+        "path": "serviceAuthorization",
+        "name": "serviceAuthorization",
+        "component": "customerManagement/serviceAuthorization",
+        "meta": { "title": "服务授权" },
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "path": "/projectManagement",
+    "component": "Layout",
+    "name": "projectManagement",
+    "meta": {
+      "title": "项目管理",
+      "icon": "icon-xiangmuguanli"
+    },
+    "children": [
+      {
+        "path": "",
+        "name": "projectManagement",
+        "component": "projectManagement/index",
+        "meta": { "title": "项目管理" }
+      },
+      {
+        "path": "projectDetail",
+        "name": "projectDetail",
+        "component": "projectManagement/projectDetail",
+        "meta": { "title": "项目详情" },
+        "hidden": true
+      },
+      {
+        "path": "usingWater",
+        "name": "usingWater",
+        "component": "projectManagement/usingWater",
+        "meta": { "title": "使用流水" },
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "path": "/resourceManagement",
+    "component": "Layout",
+    "name": "resourceManagement",
+    "meta": {
+      "title": "资源管理",
+      "icon": "icon-shujujiankong"
+    },
+    "children": [
+      {
+        "path": "",
+        "name": "resourceManagement",
+        "component": "resourceManagement/index",
+        "meta": { "title": "资源管理" },
+        "children": [
+          {
+            "path": "resourceDetail",
+            "name": "resourceDetail",
+            "component": "resourceManagement/resourceDetail",
+            "meta": { "title": "资源详情" },
+            "hidden": true,
+            "children": [
+              {
+                "path": "textMessage",
+                "name": "textMessage",
+                "component": "resourceManagement/resourceDetail/textMessage",
+                "meta": { "title": "短信" },
+                "hidden": true,
+                "children": [
+                  {
+                    "path": "textMessageDetail",
+                    "name": "textMessageDetail",
+                    "component": "resourceManagement/resourceDetail/textMessage/textMessageDetail",
+                    "meta": { "title": "短信明细" },
+                    "hidden": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "newResource",
+        "name": "newResource",
+        "component": "resourceManagement/newResource",
+        "meta": { "title": "新建资源" },
+        "hidden": true
+      },
+      {
+        "path": "resourceDetail/ocrText",
+        "name": "ocrText",
+        "component": "resourceManagement/resourceDetail/ocrText",
+        "meta": { "title": "OCR服务" },
+        "hidden": true
+      },
+      {
+        "path": "resourceDetail/vinDetail",
+        "name": "vinDetail",
+        "component": "resourceManagement/resourceDetail/vinDetail",
+        "meta": { "title": "VIN车系查询" },
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "path": "/systemLog",
+    "component": "Layout",
+    "name": "systemLog",
+    "meta": {
+      "title": "系统日志",
+      "icon": "icon-shujutongji"
+    },
+    "children": [
+      {
+        "path": "",
+        "name": "systemLog",
+        "component": "logManagement/systemLog",
+        "meta": { "title": "系统日志" }
+      },
+      {
+        "path": "systemDetail",
+        "name": "systemDetail",
+        "component": "logManagement/systemDetail",
+        "meta": { "title": "日志详情" },
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "path": "/userManagement",
+    "component": "Layout",
+    "name": "userManagement",
+    "meta": {
+      "title": "用户管理",
+      "icon": "icon-jueseguanli"
+    },
+    "children": [
+      {
+        "path": "",
+        "name": "userManagement",
+        "component": "userManagement/userManagement",
+        "meta": { "title": "用户管理" }
+      },
+      {
+        "path": "addUser",
+        "name": "addUser",
+        "component": "userManagement/addUser",
+        "meta": { "title": "新建用户" },
+        "hidden": true
+      },
+      {
+        "path": "strategyMangement",
+        "name": "strategyMangement",
+        "component": "userManagement/strategyMangement",
+        "meta": { "title": "策略管理" }
+      },
+      {
+        "path": "roleManagement",
+        "name": "roleManagement",
+        "component": "userManagement/roleManagement",
+        "meta": { "title": "角色管理" }
+      },
+      {
+        "path": "serviceGroupManagement",
+        "name": "serviceGroupManagement",
+        "component": "userManagement/serviceGroupManagement",
+        "meta": { "title": "服务组管理" }
+      }
+    ]
+  }
+]
